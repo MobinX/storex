@@ -1,6 +1,6 @@
 tasks:
   - init: npm -global install @sanity/cli
-    command: cd storex && sanity start && cd .. && cd store && yarn dev
+    command: npm -global install @sanity/cli && cd storex && sanity start && cd .. && cd store && yarn dev
 # Ports to expose on workspace startup
 ports:
   - port: 3000

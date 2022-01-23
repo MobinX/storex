@@ -8,7 +8,7 @@ export const sanityClient = createClient(config)
 export const previewClient = createClient({
   ...config,
   useCdn: false,
-  token: process.env.SANITY_API_TOKEN,
+  token:"skzXSRNpQfIHkWYqgULiKUqWqHH6zgZ6Vs2UIGi8Do6VUgFHCjAyAVBooExuNeoqjQG6V0T3kw91fepkNFOe9l5UTyGwfRVj2Jjcvs635vm5p6QIBJxtBO2IGwIDTbIK1jgaBjldEZlp4jyMb20QMFfdZx1DaGebyTkPCet8MzjckskXcnYk",
 })
 
 // Helper function for easily switching between normal client and preview client
